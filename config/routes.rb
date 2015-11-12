@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   get 'welcome/index'
+  scope '(:locale)', locale: /fr|en|nl/ do
+  end
 
   devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.

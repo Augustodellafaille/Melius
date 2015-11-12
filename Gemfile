@@ -30,6 +30,10 @@ gem 'figaro'
 gem 'rails_12factor', group: :production
 gem 'puma',           group: :production
 gem 'devise'
+gem 'devise-i18n'
+gem 'devise-i18n-views'
+gem 'i18n-tasks'
+gem 'rails-i18n', '~> 4.0.0' # For 4.0.x
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
